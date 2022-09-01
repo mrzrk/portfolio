@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mrzrk.github.io/static/css/main.3c82d2e2.css",
-    "main.js": "/mrzrk.github.io/static/js/main.2a245500.js",
-    "static/js/787.071eb048.chunk.js": "/mrzrk.github.io/static/js/787.071eb048.chunk.js",
-    "static/media/logo.svg": "/mrzrk.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/mrzrk.github.io/index.html",
-    "main.3c82d2e2.css.map": "/mrzrk.github.io/static/css/main.3c82d2e2.css.map",
-    "main.2a245500.js.map": "/mrzrk.github.io/static/js/main.2a245500.js.map",
-    "787.071eb048.chunk.js.map": "/mrzrk.github.io/static/js/787.071eb048.chunk.js.map"
+    "main.css": "/mrzrk.github.io/portfolio/static/css/main.3c82d2e2.css",
+    "main.js": "/mrzrk.github.io/portfolio/static/js/main.1ec07b7f.js",
+    "static/js/787.071eb048.chunk.js": "/mrzrk.github.io/portfolio/static/js/787.071eb048.chunk.js",
+    "static/media/logo.svg": "/mrzrk.github.io/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mrzrk.github.io/portfolio/index.html",
+    "main.3c82d2e2.css.map": "/mrzrk.github.io/portfolio/static/css/main.3c82d2e2.css.map",
+    "main.1ec07b7f.js.map": "/mrzrk.github.io/portfolio/static/js/main.1ec07b7f.js.map",
+    "787.071eb048.chunk.js.map": "/mrzrk.github.io/portfolio/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c82d2e2.css",
-    "static/js/main.2a245500.js"
+    "static/js/main.1ec07b7f.js"
   ]
 }
