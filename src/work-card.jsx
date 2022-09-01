@@ -16,7 +16,7 @@ function Workcard() {
     <div className="work-space">
       <div className="work-space-row">
       <Card sx={{ maxWidth: 600, marginBottom: 4 }}>
-      <CardActionArea to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
         <CardMedia
           component="img"
           height="280"
@@ -35,7 +35,7 @@ function Workcard() {
        </Card>
 
        <Card sx={{ maxWidth: 600, marginBottom: 4}}>
-      <CardActionArea to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
         <CardMedia
           component="img"
           height="280"
@@ -56,7 +56,7 @@ function Workcard() {
 
       <div className="work-space-row">
       <Card sx={{ maxWidth: 600, marginBottom: 4 }}>
-      <CardActionArea to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
         <CardMedia
           component="img"
           height="280"
@@ -75,7 +75,7 @@ function Workcard() {
        </Card>
 
        <Card sx={{ maxWidth: 600, marginBottom: 4  }}>
-      <CardActionArea to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
         <CardMedia
           component="img"
           height="280"
