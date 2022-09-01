@@ -16,26 +16,29 @@ function Workcard() {
     <div className="work-space">
       <div className="work-space-row">
       <Card sx={{ maxWidth: 600, marginBottom: 4 }}>
-      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
-        <CardMedia
-          component="img"
-          height="280"
-          image="./MOTF.jpeg"
-          alt="museum of the future"
-        />
-        <CardContent>
-          <Typography variant="h5" component="div">
-            Museum of the Future
-          </Typography>
-          <Typography variant="body" color="text.secondary">
-          Public installation showcasing how enterprise software and technologies are shaping our future.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-       </Card>
+        <Link to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="280"
+              image="./MOTF.jpeg"
+              alt="museum of the future"
+            />
+            <CardContent>
+              <Typography variant="h5" component="div">
+                Museum of the Future
+              </Typography>
+              <Typography variant="body" color="text.secondary">
+              Public installation showcasing how enterprise software and technologies are shaping our future.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Link>
+      </Card>
 
        <Card sx={{ maxWidth: 600, marginBottom: 4}}>
-      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+       <Link to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea >
         <CardMedia
           component="img"
           height="280"
@@ -51,12 +54,14 @@ function Workcard() {
           </Typography>
         </CardContent>
       </CardActionArea>
+      </Link>
        </Card>
       </div>
 
       <div className="work-space-row">
       <Card sx={{ maxWidth: 600, marginBottom: 4 }}>
-      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <Link to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea>
         <CardMedia
           component="img"
           height="280"
@@ -72,10 +77,12 @@ function Workcard() {
           </Typography>
         </CardContent>
       </CardActionArea>
+      </Link>
        </Card>
 
        <Card sx={{ maxWidth: 600, marginBottom: 4  }}>
-      <CardActionArea href="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+       <Link to="/work" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <CardActionArea>
         <CardMedia
           component="img"
           height="280"
@@ -92,6 +99,7 @@ function Workcard() {
           </Typography>
         </CardContent>
       </CardActionArea>
+      </Link>
        </Card>
       </div>
     </div>
